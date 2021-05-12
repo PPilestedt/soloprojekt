@@ -8,7 +8,7 @@ public class MyMathCalc {
     public int sub(int a, int b){
         return a - b;
     }
-    public double div(double a, double b){
+    public float div(int a, int b){
         return a/b;
     }
 }
