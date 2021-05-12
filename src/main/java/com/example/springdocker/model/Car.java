@@ -14,5 +14,6 @@ public class Car {
     String model;
     String manufacturer;
     String licensePlate;
+    boolean canIDriveIt;
     LocalDate created;
 }
