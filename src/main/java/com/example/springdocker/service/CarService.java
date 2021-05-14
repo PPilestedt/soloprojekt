@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 public class CarService {
     private final CarRepository repository;
 
-    public List<Car> getFoods() {
+    public List<Car> getCars() {
         return repository.findAll();
     }
 
