@@ -15,18 +15,18 @@ import java.util.List;
 public class CarController {
     private final CarService service;
 
-    @GetMapping("/foods")
-    public List<Car> getFoods() {
-        return service.getFoods();
+    @GetMapping("/cars")
+    public List<Car> getCars() {
+        return service.getCars();
     }
 
-    @PostMapping("/foods")
-    public void saveNewFood(@RequestBody Car car) {
+    @PostMapping("/cars")
+    public void saveNewCar(@RequestBody Car car) {
         service.saveNewCar(car);
     }
 
-    @GetMapping("/foods/cookable")
-    public List<String> getCookableoods() {
+    @GetMapping("/cars/driveable")
+    public List<String> getDriveableCars() {
         return service.getDrivableCar();
     }
 }
