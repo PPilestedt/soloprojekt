@@ -7,7 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Food {
+public class
+Food {
     String id;
     String name;
     boolean delicious;
